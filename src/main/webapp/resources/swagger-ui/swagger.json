@@ -1,0 +1,35 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "Description",
+    "version" : "v1",
+    "title" : "jersey-swagger-start",
+    "contact" : {
+      "url" : "https://https://github.com/larcken/",
+      "email" : "amps@naver.com"
+    },
+    "license" : {
+      "name" : "Apache 2.0",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "basePath" : "/jersey-swagger-start/api",
+  "schemes" : [ "https", "http" ],
+  "paths" : {
+    "/" : {
+      "get" : {
+        "summary" : "Hello",
+        "description" : "notes",
+        "operationId" : "hellowWorld",
+        "responses" : {
+          "401" : {
+            "description" : "Unauthorized"
+          },
+          "404" : {
+            "description" : "Not Found"
+          }
+        }
+      }
+    }
+  }
+}
